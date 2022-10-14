@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>  
+    <title>Sign Up Now</title>
+</head>
+<body>
+        <div class = 'container'>
+            <div class = 'left'>
+                <div class = 'logo'>
+                    <img src="nasa.png" alt="NASA Logo">
+                </div>
+            </div>
+            <div class = 'right'>
+                <div class = 'top'>
+                    <p class = 'top-copy'>Have you ever wanted to <span class = 'moonwalk'> walk on the moon</span>? Here's your chance. Sign up below for a chance to win a round-trip to the moon, courtesy of NASA!</p>
+                </div>
+                <div class = 'right'>
+                    <form action="webfoot.studio" method="post">
+                        <div class = 'controls'>
+                            <p class = 'form-title'>To infinity. And beyond!</p>
+                            <div class = 'row'>
+                                <div class = 'first, control'>
+                                    <label for="first-name">First Name</label>
+                                    <input type="text" name="first-name" id="first-name" placeholder ='Buzz' required>
+                                </div>
+                                <div class = 'last, control'>
+                                    <label for="last-name">Last Name</label>
+                                    <input type="text" name="last-name" id="last-name" placeholder = 'Aldrin' required>
+                                </div>
+                            </div>
+                            <div class = 'row'>
+                                <div class = 'email, control'>
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" placeholder ='moon@nasa.com' required>
+                                </div>
+                                <div class = 'phone, control'>
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" name="phone" id="phone" minlength="9" maxlength="13" placeholder = '555-555-5555'>
+                                </div>
+                            </div>
+                            <div class = 'row'>
+                                <div class = 'password, control'>
+                                    <label for="password">Password</label>
+                                    <input type="password" name="password" id="password" placeholder="password">
+                                    <p class = 'password-error'></p>
+                                </div>
+                                <div class = 'password-conf, control'>
+                                    <label for="password-confirm">Confirm Password</label>
+                                    <input type="password" name="password-confirm" id="password-confirm" placeholder="password">
+                                </div>
+                            </div>
+                        </div>
+                        <div class = 'bottom'>
+                            <button type="submit" class = 'submit'>Submit</button>
+                            <p class = 'login'>Already have an account? <span><a href="#" class = 'hyper'>Log in</a></span></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
